@@ -10,20 +10,25 @@ package org.openaire.funders.jaxb.model;
  * @author dpie
  */
 import java.util.ArrayList;
+import java.util.List;
+
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
  
 @XmlType
 public class Results {
     
-    private Result result;
+    private List<Result> result;
 
-    public Result getResult() {
+    public List<Result> getResult() {
+    	if (result == null) {
+    		result = new ArrayList<Result>();
+    	}
         return result;
     }
 
-    public void setResult(Result result) {
-        this.result = result;
+    public void setResult(List<Result> result) {
+        this.getResult().addAll(result);
     }
 
 

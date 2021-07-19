@@ -13,6 +13,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.URL;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -45,4 +46,21 @@ public class OpenAIREHandler {
  
         return response;
     }
+    
+    /**
+     * Unmarshal and returns a Response from an InputStream
+     * @param iStream
+     * @return
+     * @throws JAXBException
+     */
+	public static Response unmarshal(InputStream iStream) throws JAXBException {
+		Response response = null;
+		JAXBContext context;
+
+		context = JAXBContext.newInstance(Response.class);
+		Unmarshaller um = context.createUnmarshaller();
+		response = (Response) um.unmarshal(iStream);
+
+		return response;
+	}
 }
