@@ -22,7 +22,7 @@ public class JAXBExample {
             //Unmarshalling: Converting XML content to Java objects
             URL url = new URL("https://api.openaire.eu/search/projects?grantID=741839&funder=EC");
             Response response = OpenAIREHandler.unmarshal(url);
-            Result result = response.getResults().getResult();
+            Result result = response.getResults().getResult().get(0);
 
             System.out.println("fdsfds " + response.getHeader().getTotal());
 
