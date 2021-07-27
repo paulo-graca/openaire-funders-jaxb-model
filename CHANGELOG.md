@@ -1,0 +1,12 @@
+## Version 2.0.0
+ - Update pom.xml
+ - fix results model convert result to a list
+ - fix example result
+ - remove old model
+ - new model based on jaxb extraction
+ - new junit tests
+ - client response model
+ - XSD model inclusion and support
+ - helper classes to help with using the model
+ - maven dependencies for testing and jaxb
+ - adding usage examples to README.md
