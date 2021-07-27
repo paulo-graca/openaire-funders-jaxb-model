@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	  <header>
+		    <query>(oaftype exact project) and ( epiwork)</query>
+				  <locale>en_US</locale>	
+					<size>10</size>
+			   <page>1</page>
+			   <total>1</total>
+							<fields>
+							</fields>
+			</header>
+	  <results>
+										<result xmlns:dri="http://www.driver-repository.eu/namespace/dri">
+         <header xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <dri:objIdentifier>corda_______::19f369ecd33496a711ba25edc3ffbd3f</dri:objIdentifier>
+            <dri:dateOfCollection>2018-03-12</dri:dateOfCollection>
+            <dri:dateOfTransformation>2021-03-24</dri:dateOfTransformation>
+         </header>
+         <metadata>
+            <oaf:entity xmlns:oaf="http://namespace.openaire.eu/oaf"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        >
+               <oaf:project>
+                  <collectedfrom name="CORDA - COmmon Research DAta Warehouse"
+                                 id="openaire____::b30dac7baac631f3da7c2bb18dd9891f"/>
+                  <originalId>corda_______::231807</originalId>
+                  <code>231807</code>
+                  <acronym>EPIWORK</acronym>
+                  <title>Developing the Framework for an Epidemic Forecast Infrastructure</title>
+                  <startdate>2009-02-01</startdate>
+                  <enddate>2013-07-31</enddate>
+                  <callidentifier>FP7-ICT-2007-3</callidentifier>
+                  <duration>0</duration>
+                  <ecarticle29_3>false</ecarticle29_3>
+                  <contracttype classid="CP" classname="Collaborative project" schemeid="ec:FP7contractTypes"
+                                schemename="ec:FP7contractTypes"/>
+                  <oamandatepublications>false</oamandatepublications>
+                  <ecsc39>false</ecsc39>
+                  <totalcost>0.0</totalcost>
+                  <fundedamount>0.0</fundedamount>
+                  <fundingtree>
+                     <funder>
+                        <id>ec__________::EC</id>
+                        <shortname>EC</shortname>
+                        <name>European Commission</name>
+                        <jurisdiction>EU</jurisdiction>
+                     </funder>
+                     <funding_level_2>
+                        <id>ec__________::EC::FP7::SP1::ICT</id>
+                        <description>Information and Communication Technologies</description>
+                        <name>ICT</name>
+                        <class>ec:program</class>
+                        <parent>
+                           <funding_level_1>
+                              <id>ec__________::EC::FP7::SP1</id>
+                              <description>SP1-Cooperation</description>
+                              <name>SP1</name>
+                              <class>ec:specificprogram</class>
+                              <parent>
+                                 <funding_level_0>
+                                    <id>ec__________::EC::FP7</id>
+                                    <description>SEVENTH FRAMEWORK PROGRAMME</description>
+                                    <name>FP7</name>
+                                    <parent/>
+                                    <class>ec:frameworkprogram</class>
+                                 </funding_level_0>
+                              </parent>
+                           </funding_level_1>
+                        </parent>
+                     </funding_level_2>
+                  </fundingtree>
+                  <datainfo>
+                     <inferred>false</inferred>
+                     <deletedbyinference>false</deletedbyinference>
+                     <trust>0.900</trust>
+                     <inferenceprovenance>null</inferenceprovenance>
+                     <provenanceaction classid="sysimport:crosswalk:entityregistry" classname="Harvested"
+                                       schemeid="dnet:provenanceActions"
+                                       schemename="dnet:provenanceActions"/>
+                  </datainfo>
+                  <rels>
+                     <rel inferred="false" trust="0.900" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+                        <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::9c5e5b4e613184b9df04d5edebbea44d</to>
+                        <country classid="PT" classname="Portugal" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>FUNDACAO DA FACULDADE DE CIENCIAS DA UNIVERSIDADE DE LISBOA FP</legalname>
+                     </rel>
+                     <rel inferred="false" trust="0.900" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+                        <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::ceee518eca7b7e1ef7f20c872b493c8f</to>
+                        <legalshortname>TAU</legalshortname>
+                        <country classid="IL" classname="Israel" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>Tel Aviv University</legalname>
+                     </rel>
+                     <rel inferred="false" trust="0.900" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+                        <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">corda_______::dc6224f5db61aeffd44699ea4d490854</to>
+                        <country classid="IT" classname="Italy" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>FONDAZIONE ISTITUTO PER L'INTERSCAMBIO SCIENTIFICO (I.S.I.)</legalname>
+                        <legalshortname>ISI</legalshortname>
+                     </rel>
+                     <rel inferred="false" trust="0.900" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+                        <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::e38a759d5ffda0b775f6d464aa0a9cc3</to>
+                        <country classid="IT" classname="Italy" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>CREATE-NET (CENTER FOR RESEARCH AND TELECOMMUNICATION EXPERIMENTATION FOR NETWORKED COMMUNITIES)</legalname>
+                        <legalshortname>ASSOCIAZIONE CREATE-NET (CENTER FORRESEARCH AND TELECOMMUNICATION EXPERIMENTATION FOR NETWORKED COMM</legalshortname>
+                     </rel>
+                     <rel inferred="false" trust="0.900" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+                        <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">corda_______::2c0757dd8ca0bf8644d652379e5716fd</to>
+                        <legalname>MAX PLANCK GESELLSCHAFT ZUR FOERDERUNG DER WISSENSCHAFTEN E.V.</legalname>
+                        <country classid="DE" classname="Germany" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>MPG</legalshortname>
+                     </rel>
+                     <rel inferred="false" trust="0.900" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+                        <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::48cb3ab6d3eeee6a258fb551e480322b</to>
+                        <legalshortname>FOHM</legalshortname>
+                        <legalname>FOLKHALSOMYNDIGHETEN</legalname>
+                        <country classid="SE" classname="Sweden" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                     </rel>
+                     <rel inferred="false" trust="0.900" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+                        <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::05169b698faf0d1f62a3b81d4801922b</to>
+                        <country classid="IT" classname="Italy" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>Fondazione Bruno Kessler</legalname>
+                        <legalshortname>FBK</legalshortname>
+                     </rel>
+                     <rel inferred="false" trust="0.900" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+                        <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::2ea221cce0e3c8273b64d0a1db90f5d8</to>
+                        <country classid="PT" classname="Portugal" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>Fundação Calouste Gulbenkian</legalname>
+                     </rel>
+                     <rel inferred="false" trust="0.900" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+                        <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::75d8d501c251b7fbaaebbc60aa5ee97f</to>
+                        <legalname>Katholieke Universiteit Leuven</legalname>
+                        <legalshortname>Katholieke Universiteit Leuven</legalshortname>
+                        <country classid="BE" classname="Belgium" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                     </rel>
+                     <rel inferred="false" trust="0.900" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+                        <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">corda_______::0fcae3f5c9a65b20c162f824df1e213f</to>
+                        <legalname>Acquisto Inter BV</legalname>
+                        <country classid="NL" classname="Netherlands" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>Acquisto Inter BV</legalshortname>
+                     </rel>
+                     <rel inferred="false" trust="0.900" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+                        <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::399f47c27113b887c5523b9a335c0f03</to>
+                        <legalname>Bar-Ilan University</legalname>
+                        <legalshortname>BIU</legalshortname>
+                        <country classid="IL" classname="Israel" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                     </rel>
+                     <rel inferred="false" trust="0.900" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+                        <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::9e5bc89c5168b66f91c4ed80febb77c9</to>
+                        <country classid="GB" classname="United Kingdom" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>London School of Hygiene &amp; Tropical Medicine</legalname>
+                        <legalshortname>LSHTM</legalshortname>
+                     </rel>
+                  </rels>
+                  <children/>
+               </oaf:project>
+            </oaf:entity>
+         </metadata>
+      </result>
+						</results>
+	  <browseResults>
+								</browseResults>
+</response>
